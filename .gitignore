@@ -1,24 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-jspm_packages/
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
 # Logs
 logs
 *.log
@@ -58,6 +37,10 @@ bower_components
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
+# Dependency directories
+node_modules/
+jspm_packages/
+
 # TypeScript v1 declaration files
 typings/
 
@@ -84,6 +67,10 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
